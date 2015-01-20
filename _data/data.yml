@@ -17,6 +17,7 @@
 - data: gdpgrowth.csv
 - data: gonefishing.csv
 - data: googleflu.csv
+- data: heights.csv
 - data: house.csv
 - data: hubble.txt
 - data: infmort.csv

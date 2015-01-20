@@ -1,2 +1,2 @@
-# STA371H_Spring2015
-Statistics and Modeling (Honors), Spring 2015
+# SDS325H_Spring2015
+SDS 325H (Honors Statistics), Spring 2015, UT-Austin

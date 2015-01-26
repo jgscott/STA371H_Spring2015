@@ -1,2 +1,6 @@
+- r: citytemps.R
 - r: heights.R
+- r: mammalsleep.R
+- r: sat.R
 - r: titanic.R
+- r: yahoofinance.R

@@ -19,11 +19,23 @@ head(TitanicSurvival)
 xtabs(~survived + sex, data=TitanicSurvival)
 xtabs(~survived + passengerClass, data=TitanicSurvival)
 
-# Now stratified by both variables
+# Turn a table of counts into a table of proportions
+table1 = xtabs(~survived + sex, data=TitanicSurvival)
+prop.table(table1, margin=1)
+prop.table(table1, margin=2)
+
+# Odds of surviving for males and females
+odds_male = 0.19/0.81
+odds_female = 0.73/0.27
+
+# Compute the odds ratio
+odds_ratio = odds_female/odds_male
+
+# Now survival stratified by two variables
 xtabs(~survived + sex + passengerClass, data=TitanicSurvival)
 
 # Boxplot of age versus other variables
-boxplot(age~survived, data=TitanicSurvival)
-boxplot(age~survived + sex, data=TitanicSurvival)
-boxplot(age~passengerClass + sex, data=TitanicSurvival)
-boxplot(age~survived + passengerClass, data=TitanicSurvival)
+bwplot(age~survived, data=TitanicSurvival)
+bwplot(age~passengerClass + sex, data=TitanicSurvival)
+
+# Try some others!

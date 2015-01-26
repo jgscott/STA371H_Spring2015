@@ -44,18 +44,18 @@ if(length(readexercises) > 1) {
 
 
 
-# # # Scribe files
+# # Scribe files
 
-# readscribe = list.files("../files/scribe/")
-# writescribe = "scribe.yml"
+readscribe = list.files("../files/scribe/")
+writescribe = "scribe.yml"
 
-# myfile = readscribe[1]
-# cat("- scribe: ", myfile, "\n", sep='', file= writescribe)
+myfile = readscribe[1]
+cat("- scribe: ", myfile, "\n", sep='', file= writescribe)
 
-# if(length(readscribe) > 1) {
-	# for(i in 2:length(readscribe)) {
-		# myfile = readscribe[i]
-		# cat("- scribe: ", myfile, "\n", sep='', file= writescribe, append=TRUE)
-	# }
-# }
+if(length(readscribe) > 1) {
+	for(i in 2:length(readscribe)) {
+		myfile = readscribe[i]
+		cat("- scribe: ", myfile, "\n", sep='', file= writescribe, append=TRUE)
+	}
+}
 

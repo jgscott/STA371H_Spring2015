@@ -31,10 +31,9 @@ This is in a state of continual editing, so I will post the
 
 ### Scribe reports
 
-    <p>Below are some of your classmates' notes, day by day.  If you
-    want to remember when your scribe day is, <a
-    href="{{ site.baseurl }}/files/scribe/signup-930-1100.JPG">here is the signup
-    sheet.</a> </p>
+Below are some of your classmates' notes, day by day.  If you
+want to remember when your scribe day is, [here is the signup sheet.]({{ site.baseurl }}/files/scribe/signup-930-1100.JPG)
+
 <ul>
 {% for ex in site.data.scribe %}
   <li>

@@ -32,7 +32,7 @@ This is in a state of continual editing, so I will post the
 ### Scribe reports
 
 Below are some of your classmates' notes, day by day.  If you
-want to remember when your scribe day is, [here is the signup sheet.]({{ site.baseurl }}/files/scribe/signup-930-1100.JPG)
+want to remember when your scribe day is, [here is the signup sheet.]({{ site.baseurl }}/files/scribe-signup.JPG)
 
 <ul>
 {% for ex in site.data.scribe %}

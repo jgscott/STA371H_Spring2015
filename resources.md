@@ -9,10 +9,11 @@ title: Resources
 This is in a state of continual editing, so I will post the
   chapters as they become relevant. 
 
-* [Introduction]({{ site.baseurl }}/files/00-FrontMatter-Intro.pdf)  
-* [Chapter 1]({{ site.baseurl }}/files/01-ExplanationsAndEvidence.pdf)
-* [Chapter 2]({{ site.baseurl }}/files/02-ExploringMultivariateData.pdf)
-
+* [Introduction]({{ site.baseurl }}/files/00-FrontMatter-Intro.pdf)    
+* [Chapter 1]({{ site.baseurl }}/files/01-ExplanationsAndEvidence.pdf)  
+* [Chapter 2]({{ site.baseurl }}/files/02-ExploringMultivariateData.pdf)  
+* [Chapter 3]({{ site.baseurl }}/files/03-PredictableAndUnpredictableVariation.pdf)   
+* [Chapter 4]({{ site.baseurl }}/files/04-GroupingVariables.pdf)  
 
 ### Other readings
 

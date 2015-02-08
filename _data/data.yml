@@ -22,6 +22,7 @@
 - data: hubble.txt
 - data: infmort.csv
 - data: kidney.csv
+- data: LifeExpectancy.csv
 - data: marketmodel.csv
 - data: milk.csv
 - data: oil.txt
@@ -38,6 +39,8 @@
 - data: sdrapcty.txt
 - data: seatbelts.csv
 - data: semicon.csv
+- data: simdata_pop.csv
+- data: simdata_samp.csv
 - data: springbok.csv
 - data: sumsq.csv
 - data: TitanicSurvival.csv

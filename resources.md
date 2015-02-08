@@ -14,6 +14,8 @@ This is in a state of continual editing, so I will post the
 * [Chapter 2]({{ site.baseurl }}/files/02-ExploringMultivariateData.pdf)  
 * [Chapter 3]({{ site.baseurl }}/files/03-PredictableAndUnpredictableVariation.pdf)   
 * [Chapter 4]({{ site.baseurl }}/files/04-GroupingVariables.pdf)  
+* [Chapter 5]({{ site.baseurl }}/files/05-QuantifyingUncertaintyPart1.pdf)   
+
 
 ### Other readings
 

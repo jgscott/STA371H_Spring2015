@@ -7,7 +7,9 @@
 - data: bodybrain.csv
 - data: carauction.csv
 - data: casandie.txt
+- data: cheese.csv
 - data: chymotrypsin.csv
+- data: consumerexp.csv
 - data: cps85.csv
 - data: creatinine.csv
 - data: esdpredict.csv
@@ -39,6 +41,7 @@
 - data: sdrapcty.txt
 - data: seatbelts.csv
 - data: semicon.csv
+- data: shocks.csv
 - data: simdata_pop.csv
 - data: simdata_samp.csv
 - data: springbok.csv

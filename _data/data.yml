@@ -17,6 +17,7 @@
 - data: fips.csv
 - data: gala.csv
 - data: gdpgrowth.csv
+- data: georgia2000.csv
 - data: gonefishing.csv
 - data: googleflu.csv
 - data: heights.csv

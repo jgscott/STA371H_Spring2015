@@ -1,4 +1,9 @@
 - r: citytemps.R
+- r: exercises01_STA371H_2015.R
+- r: exercises02_STA371H_2015.R
+- r: exercises03_STA371H_2015.R
+- r: exercises04_STA371H_2015.R
+- r: exercises05_STA371H_2015.R
 - r: heights.R
 - r: mammalsleep.R
 - r: sat.R

@@ -4,8 +4,10 @@
 - r: exercises03_STA371H_2015.R
 - r: exercises04_STA371H_2015.R
 - r: exercises05_STA371H_2015.R
+- r: exercises06_STA371H_2015.R
 - r: heights.R
 - r: mammalsleep.R
+- r: salary_test.R
 - r: sat.R
 - r: titanic.R
 - r: yahoofinance.R

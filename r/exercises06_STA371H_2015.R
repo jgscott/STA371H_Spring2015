@@ -11,7 +11,7 @@ summary(lm1)
 # Part B: follow newspapers walkthrough.
 
 # Is beta1 = 1 inside the 95% confidence interval?
-confint(lm1)
+confint(lm1, level=0.95)
 
 # Now for the prediction intervals
 # Make a data frame for the new x's where you want to predict
@@ -51,6 +51,10 @@ lm1 = lm(undercount ~ poor + urban + atlanta + perAA + repshare + equip, data=ge
 summary(lm1)
 anova(lm1)
 confint(lm1)
+
+third_party = (georgia2000$votes - georgia2000$bush - georgia2000$gore)/georgia2000$votes
+plot(undercount ~ third_party, data=georgia2000)
+
 
 # Notice that perAA and repshare are highly correlated
 plot(perAA ~ repshare, data=georgia2000)
@@ -133,5 +137,8 @@ lm3 = lm(eval ~ native + credits + gender + minority + beauty, data=profs)
 summary(lm3)
 anova(lm3)
 confint(lm3)
+
+lm4 = lm(eval ~ native + credits + gender + minority + beauty + age + division, data=profs)
+summary(lm4)
 
 # In all these different models, the "beauty effect" looks present

@@ -17,7 +17,13 @@ This is in a state of continual editing, so I will post the
 * [Chapter 5]({{ site.baseurl }}/files/05-QuantifyingUncertaintyPart1.pdf)   
 * [Chapter 6]({{ site.baseurl }}/files/06-MultipleRegression.pdf)  
 * [Chapter 7]({{ site.baseurl }}/files/07-QuantifyingUncertaintyPart2.pdf)   
+* [Chapter 8]({{ site.baseurl }}/files/08-VariationInTime.pdf)  
+* [Chapter 9]({{ site.baseurl }}/files/09-BinaryOutcomes.pdf)  
 
+### Notes on probability
+* [Probability]({{ site.baseurl }}/files/probability.pdf)  
+* [Random variables]({{ site.baseurl }}/files/randomvariables.pdf)   
+* [Utility]({{ site.baseurl }}/files/utility.pdf)   
 
 
 ### Other readings

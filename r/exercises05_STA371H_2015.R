@@ -60,7 +60,7 @@ exp(confint(lm3)['disp',])
 # Spot check for a single store
 # Specifically looking at Kroger DFW
 dfwkroger = subset(cheese, store=='DALLAS/FT. WORTH - KROGER CO')
-plot(vol~price, data=dfwkroger)
+plot(vol~price, data=dfwkroger, las=1)
 points(vol~price, data=subset(dfwkroger, disp==1), col='blue', pch=19)
 points(vol~price, data=subset(dfwkroger, disp==0), col='red', pch=19)
 
@@ -76,6 +76,17 @@ curve(exp(9.37579 + 1.43461 + 0.18540)*x^(-2.53159), add=TRUE, col='blue')
 # Try a model with an interaction
 lm4 = lm(log(vol)~log(price) + store + disp + disp:log(price), data=cheese)
 coef(lm4)
+
+plot(vol~price, data=dfwkroger, las=1)
+points(vol~price, data=subset(dfwkroger, disp==1), col='blue', pch=19)
+points(vol~price, data=subset(dfwkroger, disp==0), col='red', pch=19)
+
+# Go back and make the curves from the fitted coefficients
+# No displays
+curve(exp(9.37579 + 1.43461)*x^(-2.53159), add=TRUE, col='red')
+# With displays
+curve(exp(9.37579 + 1.43461 + 0.18540)*x^(-2.53159), add=TRUE, col='blue')
+
 
 # Can we real out zero as a plausible value for the interaction?
 confint(lm4)

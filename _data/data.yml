@@ -5,6 +5,7 @@
 - data: bballbets.csv
 - data: birthwt.csv
 - data: bodybrain.csv
+- data: carauction_test.csv
 - data: carauction_train.csv
 - data: casandie.txt
 - data: cheese.csv

@@ -1,0 +1,35 @@
+In-Class 3/9
+Steps to building a model
+Specify Null
+Wage gap = 0, adjusting for experience and education
+Choose T
+Change in R^2, coefficient of sex variable, mean wage,
+Simulate P (T|H)
+Simulate probability distribution. This is where we use the permutation test using shuffle.
+perm1 = do(1000) * {
+lm_shuffle=lm(Salary~Experience+Months+Education+shuffle(Sex), data=salary)}
+look at histogram. Shuffling ensures no existing association between sex and salary. This is what hist shows. Then go look at original datas histogram. This is with existing associations.
+Check T vs P (T|H)
+Can do a sum of the area of histogram past T stat to find p-value, which represents the probability of observing value more extreme than our t under the null hypothesis. Don’t worry about p values for exam. Just look at histogram and ballpark a certain confidence interval to see whether our observation is consistent with that histogram. Its subjective just make a good argument.
+Coverage interval v confidence interval v prediction interval
+Coverage interval is generic concept. Conf int and pred int are both types of coverage intervals. Cov Int is the interval that covers whatever specified fraction of data.
+Prediction intervals. What is my best guess for Y? use your regression model. How sure are you of that value? Need to add in uncertainty. Collection of numbers is predicted observable quantities.
+Y=B0+B1+e where error is plus or minus Z sigmas where sigma is residual standard deviation to give naïve prediction interval. It is naïve because has to do with residual standard error and not any of the systematic uncertainty. Only uncertainty is from the residual piece.
+Confidence Intervals give coverage intervals on model parameters sampling distribution
+Monte carlo simulation v bootstrapping
+Monte carlo is general idea, bootstrapping is specific case. MC is using computer to simulate random process. B uses MC simulation. Goal is to create a sampling distribution (by monte carlo. Is our best guess bc cannot actually observe population. Have our one sample so draw repeated samples from original. Fake it till you make it baby hoorah!). Parameters will be a good approximation to actual population.
+Fundamental thing to take away from histogram is dispersion of sampling distribution and not where it is centered.
+Interaction terms
+Can fix aggregation paradox. Grouping variable was confounding relationship between predictor and response. Two strategies: slice and dice (each group gets own line) or use of interaction terms and dummy variables (build single model that incorporates right combo of dummies and interaction terms).
+Xi1 is batting avg. Xi2 is MLB dummy.
+Main effects only: Yi=B0+B1Xi1+B2Xi2. All it does is shift up intercept. Same slope (B1) but new intercept if in MLB (B0+B2) compared to AAA (B0).
+Interaction terms (new variable created by multiplying old variables) included: Yi=B0+B1Xi1+B2Xi2+B2Xi1Xi2. When variables activated, becomes a linear regression model yi=B0+B2+B1Xi1+B2Xi1. Changes slope!!! How to address confounders depends on whether groups need different slopes. If yes, interact. If no, main effects only.
+Multiple regression
+More than one numerical predictor. Multiple dimension plot. Interaction terms are still 2d.
+Standard error v standard deviation
+Sd is way to measure dispersion of any set of numbers. Sd is general term. Se is type of sd. Se is a specific sd of a sampling distribution.
+Transformations
+Normal slope is change in y/change in x. when exponentiate is delta log Y over delta log x. is same thing as percent change in y.
+Y=kX^B. power law.
+logY=LogK+BlogX
+idea is to transform variables to resemble linear relationship so can use least squares to generate a regression model. Fixes problem of having major outliers.     

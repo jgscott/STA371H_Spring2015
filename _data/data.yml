@@ -50,6 +50,7 @@
 - data: spamfit.csv
 - data: spamtest.csv
 - data: springbok.csv
+- data: stocksjointdist.csv
 - data: sumsq.csv
 - data: TitanicSurvival.csv
 - data: trafficdeaths.csv

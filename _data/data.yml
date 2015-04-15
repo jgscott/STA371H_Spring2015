@@ -47,6 +47,7 @@
 - data: shocks.csv
 - data: simdata_pop.csv
 - data: simdata_samp.csv
+- data: SimpleJointDistribution.csv
 - data: spamfit.csv
 - data: spamtest.csv
 - data: springbok.csv

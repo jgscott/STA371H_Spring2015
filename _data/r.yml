@@ -1,4 +1,5 @@
 - r: citytemps.R
+- r: diversification.R
 - r: exercises01_STA371H_2015.R
 - r: exercises02_STA371H_2015.R
 - r: exercises03_STA371H_2015.R
@@ -6,9 +7,12 @@
 - r: exercises05_STA371H_2015.R
 - r: exercises06_STA371H_2015.R
 - r: exercises07-STA371H_2015.R
+- r: exercises09-STA371H_2015.R
 - r: heights.R
 - r: mammalsleep.R
 - r: MonteCarloIntro.R
+- r: montecarlotips.R
+- r: Portfolio.R
 - r: salary_test.R
 - r: sat.R
 - r: titanic.R

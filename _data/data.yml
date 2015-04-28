@@ -53,6 +53,7 @@
 - data: springbok.csv
 - data: stocksjointdist.csv
 - data: sumsq.csv
+- data: Temp50Year.csv
 - data: TitanicSurvival.csv
 - data: trafficdeaths.csv
 - data: ukgas.csv

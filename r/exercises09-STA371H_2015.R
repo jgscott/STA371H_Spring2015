@@ -2,7 +2,7 @@ currentwealth = 1000
 rounds = 10000
 
 
-frac = 0.1
+frac = 0.02
 
 runningwealth = rep(0, rounds) # a placeholder for the result
 for(i in 1:rounds) {

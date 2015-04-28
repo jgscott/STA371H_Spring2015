@@ -4,7 +4,7 @@ library(fImport)
 # Import some ETF's corresponding to broad asset classes
 # stocks, govt bonds, corporate bonds, commodities, real estate
 mytickers = c("SPY", "TLT", "LQD", "DBC", "VNQ")
-myprices = yahooSeries(mytickers, from='2009-01-01', to='2013-12-31')
+myprices = yahooSeries(mytickers, from='2008-01-01', to='2013-12-31')
 
 # Compute the returns from the closing prices
 # Remember to copy/paste (or command-enter) the computereturns function from previous script.
@@ -24,6 +24,7 @@ cor(myreturns)
 
 # Show the actual histogram of returns
 hist(myreturns[,1], 50)
+
 
 # Compare with the best-fitting normal approximation
 hist(myreturns[,1], 50, prob=TRUE)
